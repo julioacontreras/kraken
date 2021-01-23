@@ -1,0 +1,37 @@
+{
+  "name": "Kraken Backend",
+  "version": "0.1.0",
+  "description": "Kraken Backend Alpha Version",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=dev nodemon --exec node ./src/index.js",
+    "dev": "cross-env NODE_ENV=dev node ./src/index.js",
+    "start": "cross-env NODE_ENV=prod node ./src/index.js",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonpath": "^1.0.2",
+    "express-session": "^1.17.1",
+    "find": "^0.3.0",
+    "path": "^0.12.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^25.5.4",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}

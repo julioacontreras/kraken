@@ -1,0 +1,15 @@
+{
+  "application": "My project",
+  "modules": [
+  ],
+  "databases": {},
+  "params": {
+    "rootApi": "/api",
+    "logPath": "~/../logs",
+    "protocol": "$env{PROTOCOL}",
+    "host": "$env{HOST}",
+    "port": "$env{PORT}",
+    "urlApp": "$env{APP_URL}",
+    "sessionSecret": "mysecrectkey",
+  }
+}
