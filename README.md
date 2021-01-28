@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" width="120" alt="Kraken Logo" />
+  <img src="/julioacontreras/kraken-doc/blob/main/assets/img/logo.png?raw=true" width="120" alt="Kraken Logo" />
 </p>
 
 # KrakenJs
