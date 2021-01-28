@@ -23,4 +23,4 @@ To check out the documentation [here](https://github.com/julioacontreras/kraken-
 
 ## Issues
 
-Please make sure to read the [Issue](https://github.com/julioacontreras/kraken/issues).
+Make yours issues [here](https://github.com/julioacontreras/kraken/issues).
