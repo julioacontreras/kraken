@@ -4,7 +4,7 @@
 
 Kraken is a framework for build big projects server-side applications. This framwork use ExpressJs.
 
-## Philosophy - make you project in modules
+## Philosophy - Make you Project in Modules
 
 This project inpired in architecture like MVC and DDD, you can create easy way module and keep your project organized.
 
