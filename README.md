@@ -1,4 +1,8 @@
-# ⚡️ Kraken Backend - Alpha 0.0.1
+# ⚡️ Kraken Backend
+
+## Version
+
+Alpha 0.0.1
 
 ## Description
 
