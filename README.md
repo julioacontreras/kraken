@@ -19,20 +19,7 @@ This project inpired in architectures like MVC and DDD, you can create easy way 
 
 ## Get started
 
-``` bash
-
-#Run application in developmente mode
-$ npm run dev
-
-#Run dev mode restarting whe change some file
-$ npm run watch
-
-# Deploy
-$ npm run start
-
-# Run tests
-$ npm run test
-```
+To check out the documentation [here](https://github.com/julioacontreras/kraken-doc).
 
 ## Issues
 
