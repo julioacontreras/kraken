@@ -15,7 +15,7 @@ Kraken is a framework for build big projects server-side applications. This fram
 ## Philosophy 
 
 #### Make your Project Thinking in Modules
-This project inpired in architectures like MVC and Domains, each module have your independent structure to keep organized and scalable.
+This project inpired in architectures like MVC, Microservices and Domains, each module have your independent structure to keep organized and scalable.
 
 ## Get started
 
