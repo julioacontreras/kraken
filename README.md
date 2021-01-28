@@ -10,7 +10,10 @@ Alpha 0.0.1
 
 ## Description
 
-Kraken is a framework for build big projects server-side applications. This framework use ExpressJs.
+Kraken is a framework for build big projects server-side applications. 
+
+* Make in javascript language.
+* This framework use ExpressJs.
 
 ## Philosophy 
 
