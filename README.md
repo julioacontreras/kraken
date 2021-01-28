@@ -27,6 +27,4 @@ $ npm run test
 
 ## Issues
 
-Please make sure to read the Issue Reporting Checklist before opening an issue. Issues not conforming to the guidelines may be closed immediately.
-https://github.com/julioacontreras/kraken/issues
-
+Please make sure to read the [Issue](https://github.com/julioacontreras/kraken/issues)  Reporting Checklist before opening an issue. Issues not conforming to the guidelines may be closed immediately.
