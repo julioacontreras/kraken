@@ -1,5 +1,5 @@
 {
-  "name": "Kraken Backend",
+  "name": "kraken-backend",
   "version": "0.1.0",
   "description": "Kraken Backend Alpha Version",
   "scripts": {
@@ -12,14 +12,21 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "chalk": "^4.1.0",
     "connect-flash": "^0.1.1",
     "cors": "^2.8.5",
     "date-fns": "^2.16.1",
+    "directory-exists": "^2.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jsonpath": "^1.0.2",
     "express-session": "^1.17.1",
+    "figlet": "^1.5.0",
     "find": "^0.3.0",
+    "inquirer": "^8.0.0",
+    "jsonpath": "^1.0.2",
+    "mkdirp": "^1.0.4",
+    "mustache": "^4.1.0",
+    "npm": "^7.6.2",
     "path": "^0.12.7",
     "winston": "^3.3.3"
   },

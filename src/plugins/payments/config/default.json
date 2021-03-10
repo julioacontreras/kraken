@@ -1,0 +1,19 @@
+{
+  "path": "~/plugins/payments",
+  "options": {
+    "redsys": {
+      "fucCode": "$env{REDSYS_UFC_CODE}",
+      "terminal": "$env{REDSYS_TERMINAL}",
+      "currency": "$env{REDSYS_CURRENCY}",
+      "secret": "$env{REDSYS_SECRET}",
+      "typeSecret": "$env{REDSYS_TYPE}",
+      "transaction_type": "0",
+      "url": "$env{REDSYS_URL}",
+      "redirect_urls": {
+        "callbackBasePath": "$env{CALLBACK_PAYMENT_URL}/api/payments/redsys/callback",
+        "urlOK": "$env{APP_URL}/flight/payment/success",
+        "urlKO": "$env{APP_URL}/flight/payment/error"
+      }  
+    }
+  }
+}

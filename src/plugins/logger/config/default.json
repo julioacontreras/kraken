@@ -1,0 +1,6 @@
+{
+  "path": "~/plugins/logs",
+  "options": {
+    "path": "~/../logs"
+  }  
+}

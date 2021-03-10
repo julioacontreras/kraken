@@ -1,0 +1,15 @@
+{
+  "path": "~/plugins/email",
+  "options": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "secure": false,
+    "auth": {
+      "user": "user@gmail.com",
+      "pass": "pass"
+    },
+    "tls": { "rejectUnauthorized": false}
+  },
+  "templates": {
+  }
+}

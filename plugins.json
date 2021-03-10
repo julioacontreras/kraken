@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    {
+      "path": "~/plugins/logger",
+      "options": {
+        "path": "~/../logs"
+      }  
+    }    
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "path": "~/plugins/mongodb",
+  "options": {
+    "databases": {
+      "base": {
+        "connector": "~/services/mongodb",
+        "params": {
+          "url": "mongodb://localhost:27017/{{&database}}"
+        }
+      }
+    }
+  }
+}
