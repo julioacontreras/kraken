@@ -57,6 +57,7 @@ inquirer.prompt([
   }
 ]).then((options) => {
   options.path = __dirname
+  options.rootPath = `${__dirname}/../../..`
   const cm = new CreateModule()
   cm.exec(options)
 })

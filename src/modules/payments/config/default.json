@@ -1,5 +1,5 @@
 {
-  "path": "~/plugins/payments",
+  "path": "~/modules/payments",
   "options": {
     "redsys": {
       "fucCode": "$env{REDSYS_UFC_CODE}",

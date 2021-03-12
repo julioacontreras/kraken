@@ -1,4 +1,4 @@
-const helper = require('../../../shared/helper')()
+const helper = require('../../../../shared/helper')()
 
 class RegisterCreator {
   async create (options) {
@@ -9,9 +9,9 @@ class RegisterCreator {
       console.error(e)
       return
     }
-    const existDirectory = await helper.dirExist(options.path, '../../src/modules/' + options.module)
+    const existDirectory = await helper.dirExist(options.rootPath, '/src/modules/' + options.module)
     if (!existDirectory) {
-      const dir = helper.createPath(options.path, '../../src/modules/' + options.module + '/register')
+      const dir = helper.createPath(options.rootPath, '/src/modules/' + options.module + '/register')
       helper.createDir(dir)
       helper.createFile(`${dir}/index.js`, template)
     } else {

@@ -1,4 +1,4 @@
-const helper = require('../../../shared/helper')()
+const helper = require('../../../../shared/helper')()
 
 class ConfigCreator {
   findModule (modules, path) {
@@ -8,7 +8,7 @@ class ConfigCreator {
   async addModule (options) {
     let config = ''
     try {
-      config = JSON.parse(helper.loadFile(options.path, '../../modules.json'))
+      config = JSON.parse(helper.loadFile(options.rootPath, '/modules.json'))
     } catch (e) {
       console.error(e)
       return
@@ -21,7 +21,7 @@ class ConfigCreator {
         opt = { database: options.database }
       }
       config.modules.push({ path: pathModule, options: opt })
-      helper.createFile(`${options.path}/../../modules.json`, JSON.stringify(config, null, 2))
+      helper.createFile(`${options.rootPath}/modules.json`, JSON.stringify(config, null, 2))
     }
   }
 }

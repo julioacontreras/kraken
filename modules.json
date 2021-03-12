@@ -1,8 +1,4 @@
 {
   "modules": [
-    {
-      "path": "~/modules/asd",
-      "options": {}
-    }
   ]
 }

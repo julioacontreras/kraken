@@ -1,4 +1,4 @@
-const helper = require('../../../shared/helper')()
+const helper = require('../../../../shared/helper')()
 
 class ServiceCreator {
   async create (options) {
@@ -9,9 +9,9 @@ class ServiceCreator {
       console.error(e)
       return
     }
-    const existDirectory = await helper.dirExist(options.path, '../../src/modules/' + options.module)
+    const existDirectory = await helper.dirExist(options.rootPath, '/src/modules/' + options.module)
     if (!existDirectory) {
-      const dir = helper.createPath(options.path, '../../src/modules/' + options.module + '/services')
+      const dir = helper.createPath(options.rootPath, '/src/modules/' + options.module + '/services')
       helper.createDir(dir)
       helper.createFile(`${dir}/index.js`, template)
     } else {

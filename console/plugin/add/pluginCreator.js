@@ -6,7 +6,7 @@ class PlugingCreator {
   }
 
   async add (options) {
-    let config = ''
+    let config = {}
     try {
       config = JSON.parse(helper.loadFile(options.rootPath, '/plugins.json'))
     } catch (e) {

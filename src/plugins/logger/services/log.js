@@ -1,9 +1,9 @@
 const winston = require('winston')
 const format = winston.format
 
-module.exports = function ({ app }) {
+module.exports = function ({ app, options }) {
   const { combine, timestamp } = format
-  const logPath = app.params.logPath
+  const logPath = options.path
   const logger = winston.createLogger({
     level: 'info',
     format: combine(
