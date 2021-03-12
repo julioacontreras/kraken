@@ -1,5 +1,5 @@
-const helper = require('../helper')()
 const Mustache = require('mustache')
+const helper = require('../../../shared/helper')()
 
 class RoutesCreator {
   async create (options) {

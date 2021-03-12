@@ -1,4 +1,4 @@
-const helper = require('../helper')()
+const helper = require('../../../shared/helper')()
 
 class ConfigCreator {
   findModule (modules, path) {
@@ -21,7 +21,7 @@ class ConfigCreator {
         opt = { database: options.database }
       }
       config.modules.push({ path: pathModule, options: opt })
-      helper.createFile(`${options.path}/../../config.json`, JSON.stringify(config, null, 2))
+      helper.createFile(`${options.path}/../../modules.json`, JSON.stringify(config, null, 2))
     }
   }
 }

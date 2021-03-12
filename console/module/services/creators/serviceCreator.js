@@ -1,4 +1,4 @@
-const helper = require('../helper')()
+const helper = require('../../../shared/helper')()
 
 class ServiceCreator {
   async create (options) {
