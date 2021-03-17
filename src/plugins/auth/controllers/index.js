@@ -1,9 +1,10 @@
 module.exports = function ({ app }) {
   const Service = require('../services')({ app })
-  const service = new Service()
   return {
-    hellow (req, res) {
-      res.json({ message: service.getMessage() })
+    login: Service.auth,
+    logout (req, res) {
+      req.session.user = null
+      res.json({ status: 'success' })
     }
   }
 }
