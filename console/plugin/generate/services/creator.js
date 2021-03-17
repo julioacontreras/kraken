@@ -8,9 +8,9 @@ const capitalize = (value) => {
   return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
-class CreateModule {
+class Creator {
   exec (options) {
-    if (!options.module) {
+    if (!options.name) {
       console.error('Error: Invalid name')
       return
     }
@@ -45,8 +45,8 @@ class CreateModule {
 
   createConfig (options) {
     const routes = new ConfigCreator()
-    routes.addModule(options)
+    routes.add(options)
   }
 }
 
-module.exports = CreateModule
+module.exports = Creator

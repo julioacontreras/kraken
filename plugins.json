@@ -5,6 +5,10 @@
       "options": {
         "path": "~/../logs"
       }
+    },
+    {
+      "path": "~/plugins/auth",
+      "options": {}
     }
   ]
 }

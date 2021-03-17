@@ -3,6 +3,10 @@
     {
       "path": "~/modules/builder",
       "options": {}
+    },
+    {
+      "path": "~/modules/gigi",
+      "options": {}
     }
   ]
 }
